@@ -19,7 +19,8 @@ export interface Experience {
   role: string
   company: string
   period: string
-  description: string
+  description?: string | null
+  highlights?: string[]
   tech: string[]
 }
 

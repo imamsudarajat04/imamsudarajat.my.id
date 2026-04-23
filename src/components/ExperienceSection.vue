@@ -54,6 +54,16 @@ onMounted(() => {
                   </span>
                 </div>
                 <p class="font-body text-sm text-text-muted leading-relaxed mb-4">{{ exp.description }}</p>
+                <ul v-if="exp.highlights?.length" class="mb-4 space-y-2">
+                  <li
+                    v-for="(item, idx) in exp.highlights"
+                    :key="`${exp.id}-${idx}`"
+                    class="font-body text-sm text-text-muted leading-relaxed flex gap-2"
+                  >
+                    <span class="text-accent-primary mt-1">-</span>
+                    <span>{{ item }}</span>
+                  </li>
+                </ul>
                 <div class="flex flex-wrap gap-2">
                   <span
                     v-for="tech in exp.tech"

@@ -33,7 +33,7 @@ onMounted(() => {
         <!-- Highlight badge -->
         <div v-if="project.highlight" class="absolute top-0 right-0">
           <div class="bg-accent-primary text-bg-primary font-mono text-xs px-3 py-1 rounded-bl-lg">
-            Featured
+            Package
           </div>
         </div>
 

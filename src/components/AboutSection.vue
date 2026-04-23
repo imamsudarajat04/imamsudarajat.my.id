@@ -12,7 +12,7 @@ onMounted(() => {
 })
 
 const stats = [
-  { value: '6+', label: 'Years Experience' },
+  { value: '3+', label: 'Years Experience' },
   { value: '30+', label: 'Projects Completed' },
   { value: '15+', label: 'Happy Clients' },
   { value: '99%', label: 'System Uptime' },
@@ -31,18 +31,17 @@ const stats = [
       <!-- Text -->
       <div class="reveal space-y-5">
         <p class="font-body text-text-secondary leading-relaxed text-lg">
-          Halo! Saya <strong class="text-accent-primary">Imam Sudarajat</strong>, seorang Backend Developer
-          dengan pengalaman lebih dari 6 tahun membangun sistem yang scalable dan reliable untuk berbagai
-          industri — dari fintech hingga e-commerce.
+          Hi! I am <strong class="text-accent-primary">Imam Sudarajat</strong>, a Fullstack Developer
+          with 3+ years of experience building scalable and reliable systems across industries.
         </p>
         <p class="font-body text-text-secondary leading-relaxed">
-          Saya passionate dalam merancang arsitektur yang clean, menulis kode yang maintainable, dan
-          mengoptimalkan performa sistem. Ketika tidak sedang coding, saya sering bereksperimen dengan
-          open-source tools dan berbagi pengetahuan di komunitas developer.
+          I am passionate about designing clean architecture, writing maintainable code, and
+          optimizing system performance across both frontend and backend. Outside of coding,
+          I enjoy experimenting with open-source tools and sharing knowledge with developer communities.
         </p>
         <p class="font-body text-text-secondary leading-relaxed">
-          Saat ini tersedia untuk proyek freelance dan kolaborasi menarik. Saya percaya bahwa
-          backend yang baik adalah fondasi dari produk digital yang luar biasa.
+          I am currently available for freelance projects and exciting collaborations. I believe that
+          great digital products are built on strong end-to-end engineering.
         </p>
 
         <div class="pt-4">
@@ -50,7 +49,7 @@ const stats = [
             href="#contact"
             class="inline-flex items-center gap-2 font-mono text-sm text-accent-primary hover:gap-4 transition-all duration-300"
           >
-            Mari berkolaborasi
+            Let's collaborate
             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
             </svg>
